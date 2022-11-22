@@ -8,5 +8,7 @@ mod test_scene;
 
 pub mod prelude {
     #[doc(hidden)]
-    pub use crate::{debug::*, engine::*, pico_svg::*, ramp::*, render::*, shaders::*};
+    pub use crate::{
+        debug::*, engine::*, pico_svg::*, ramp::*, render::*, shaders::*, test_scene::*,
+    };
 }
